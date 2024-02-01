@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basir</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+        <div class="address border">
+          <p class="pera-1">Deliver to</p>
+          <div class="location">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="pera-2">Pakistan</p>
+          </div>
+        </div>
+
+        <!-- search bar -->
+        <div class="main-div">
+          <select class="search">
+            <option value="Selected">All</option>
+            <option value="alexa-skills">Alexa Skills</option>
+            <option value="instant-video">Amazon Video</option>
+            <option value="warehouse-deals">Amazon Warehouse Deals</option>
+            <option value="appliances">Appliances</option>
+            <option value="mobile-apps">Apps &amp; Games</option>
+            <option value="arts-crafts">Arts, Crafts &amp; Sewing</option>
+            <option value="automotive">
+            </option>
+            <option value="baby-products">Baby</option>
+            <option value="beauty">Beauty &amp; Personal Care</option>
+            <option value="stripbooks">Books</option>
+            <option value="popular">CDs &amp; Vinyl</option>
+            <option value="mobile">Cell Phones &amp; Accessories</option>
+            <option value="fashion">Clothing, Shoes &amp; Jewelry</option>
+            <option value="fashion-womens">&nbsp;&nbsp;&nbsp;Women</option>
+            <option value="fashion-mens">&nbsp;&nbsp;&nbsp;Men</option>
+            <option value="fashion-girls">&nbsp;&nbsp;&nbsp;Girls</option>
+            <option value="fashion-boys">&nbsp;&nbsp;&nbsp;Boys</option>
+            <option value="fashion-baby">&nbsp;&nbsp;&nbsp;Baby</option>
+            <option value="collectibles">Collectibles &amp; Fine Art</option>
+            <option value="computers">Computers</option>
+            <option value="courses">Courses</option>
+            <option value="financial">Credit and Payment Cards</option>
+            <option value="digital-music">Digital Music</option>
+            <option value="electronics">Electronics</option>
+            <option value="gift-cards">Gift Cards</option>
+            <option value="grocery">Grocery &amp; Gourmet Food</option>
+            <option value="handmade">Handmade</option>
+            <option value="hpc">Health, Household &amp; Baby Care</option>
+            <option value="local-services">Home &amp; Business Services</option>
+            <option value="garden">Home &amp; Kitchen</option>
+            <option value="industrial">Industrial &amp; Scientific</option>
+            <option value="digital-text">Kindle Store</option>
+            <option value="fashion-luggage">Luggage &amp; Travel Gear</option>
+            <option value="luxury-beauty">Luxury Beauty</option>
+            <option value="magazines">Magazine Subscriptions</option>
+            <option value="movies-tv">Movies &amp; TV</option>
+            <option value="mi">Musical Instruments</option>
+            <option value="office-products">Office Products</option>
+            <option value="lawngarden">Patio, Lawn &amp; Garden</option>
+            <option value="pets">Pet Supplies</option>
+            <option value="prime-exclusive">Prime Exclusive</option>
+            <option value="pantry">Prime Pantry</option>
+            <option value="software">Software</option>
+            <option value="sporting">Sports &amp; Outdoors</option>
+            <option value="tools">Tools &amp; Home Improvement</option>
+            <option value="toys-and-games">Toys &amp; Games</option>
+            <option value="vehicles">Vehicles</option>
+            <option value="videogames">Video Games</option>
+            <option value="wine">Wine</option>
+          </select>
+          <input type="text" placeholder="Search Amazon" class="input" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!-- Language selection -->
+
+        <div class="language-div border">
+          <select class="language">
+            <option value="Selected">EN</option>
+            <option value="Selected">Arbic</option>
+            <option value="Selected">French</option>
+            <option value="Selected">Turkish</option>
+            <option value="Selected">Urdu</option>
+            <option value="Selected">Poshto</option>
+            <option value="Selected">Saraiki</option>
+          </select>
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+        </div>
+        <!-- Returns and lists
+           -->
+        <div class="account-and-list border">
+          <a href="#">
+            <p class="hello">hello,sign in</p>
+            <p class="Account">Account $ Lists</p>
+          </a>
+        </div>
+        <div class="returns-and-list border">
+          <p class="return">Returns</p>
+          <p class="orders">$ Orders</p>
+        </div>
+
+        <!-- car section -->
+
+        <div class="cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p class="cart-text">Cart</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- strip just below the navigation bar -->
+    <div class="strip">
+      <div class="menu-icon border">
+        <i class="fa-solid fa-bars"></i>
+        <p>All</p>
+      </div>
+      <div class="strip-options">
+        <p class="border">Today's Deals</p>
+        <p class="border">Customer Services</p>
+        <p class="border">Registry</p>
+        <p class="border">Gift Cards</p>
+        <p class="border">Sell</p>
+      </div>
+      
+    </div>
+
+    <!-- Hero section. -->
+    <div class="hero-section"></div>
+    <div class="bg-strip">
+      <p>
+        You are on Amazon.com.You can shop on Amazon Pakistan for millions of
+        products with fast local delaviry.
+        <a href=""> Click here to go to amazon.pk</a>
+      </p>
+    </div>
+    <!-- shoping section.. -->
+
+    <div class="shop-section">
+      <div class="box">
+        <h2>Electronics</h2>
+        <div class="item-img" style="background-image: url('box-1.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Perfum and Beauty</h2>
+        <div class="item-img" style="background-image: url('watch1.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Cloths and Dresses</h2>
+        <div class="item-img" style="background-image: url('box-3.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>New fashion</h2>
+        <div class="item-img" style="background-image: url('box-4.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Presents $ Gifts</h2>
+        <div class="item-img" style="background-image: url('box-5.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>beauty and Tips</h2>
+        <div
+          class="item-img"
+          style="background-image: url('beauty.jpeg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Health $ Care</h2>
+        <div
+          class="item-img"
+          style="background-image: url('health\ and\ care.jpeg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Electronic Camras</h2>
+        <div class="item-img" style="background-image: url('camera.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Amazing Arts</h2>
+        <div class="item-img" style="background-image: url('art.jpeg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Books staal</h2>
+        <div
+          class="item-img"
+          style="background-image: url('books\ 1.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Computer Hardwares</h2>
+        <div
+          class="item-img"
+          style="background-image: url('keyboard.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Modren Makeup</h2>
+        <div class="item-img" style="background-image: url('makeup.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Electronic Loud</h2>
+        <div
+          class="item-img"
+          style="background-image: url('speaker1.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+
+      <div class="box">
+        <h2>Useful daily</h2>
+        <div class="item-img" style="background-image: url('string.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+
+      <div class="box">
+        <h2>Ladies pars</h2>
+        <div class="item-img" style="background-image: url('pars.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Soothing Instruments</h2>
+        <div class="item-img" style="background-image: url('piano.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Modren speakers</h2>
+        <div
+          class="item-img"
+          style="background-image: url('speaker2.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Busniss books</h2>
+        <div
+          class="item-img"
+          style="background-image: url('books\ 2.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Modren Fashion</h2>
+        <div
+          class="item-img"
+          style="background-image: url('fishon.jpeg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Brushes</h2>
+        <div class="item-img" style="background-image: url('brush2.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Quality Laptops</h2>
+        <div class="item-img" style="background-image: url('laptop.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Zoomers</h2>
+        <div class="item-img" style="background-image: url('zommer.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Gits $ Watches</h2>
+        <div class="item-img" style="background-image: url('watxh4.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Tooth paste</h2>
+        <div
+          class="item-img"
+          style="background-image: url('toothpastes\ 4\ img.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Ladies Sandle</h2>
+        <div class="item-img" style="background-image: url('sandle.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Daily using tools</h2>
+        <div class="item-img" style="background-image: url('tools.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Bikes $ Racing</h2>
+        <div class="item-img" style="background-image: url('bike.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Painting Brushes</h2>
+        <div
+          class="item-img"
+          style="background-image: url('brushes.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Digital Camras</h2>
+        <div class="item-img" style="background-image: url('camera.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Nodren Wrest Watch</h2>
+        <div class="item-img" style="background-image: url('watch3.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Make your Art</h2>
+        <div class="item-img" style="background-image: url('art.jpeg')"></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Mind Blowing books</h2>
+        <div
+          class="item-img"
+          style="background-image: url('books\ 2.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Toothpaste</h2>
+        <div
+          class="item-img"
+          style="background-image: url('toothpast.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Feshion $ Trends</h2>
+        <div
+          class="item-img"
+          style="background-image: url('fishon.jpeg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Scleable System</h2>
+        <div
+          class="item-img"
+          style="background-image: url('internatonal\ section.jpg')"
+        ></div>
+        <p>Shop Now</p>
+      </div>
+      <div class="box">
+        <h2>Make Your work easy</h2>
+        <div class="item-img" style="background-image: url('tools1.jpg')"></div>
+        <p>Shop Now</p>
+      </div>
+    </div> 
+             <!-- Sign in section  and form -->
+    <form action="" class=" form">
+    <div class="regestration">
+      <h6>See personalize Recommendations</h6>
+      <input class="sign" type="Email" value="" placeholder="sign in ">
+      <P class="sign-pera">New coustomer ? <a href="#">Start here</a></P>
+    </div>
+    </form>
+    <hr>
+    <input class="back" type="text" value="Back to top">
+    <!-- footer starts here. -->
+    <div class="footer-lists">
+      <ul>
+        <p>Get to Know Us</p>
+        <a href="#">Careers</a>
+        <a href="#">Blogs</a>
+        <a href="#">About Amazon</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Amazon Devices</a>
+        <a href="#">Amazon Science</a>
+      </ul>
+
+      <ul>
+        <p>Make mony with Us</p>
+        <a href="#">Sell product on Amazon</a>
+        <a href="#">Sell on Amazon Business</a>
+        <a href="#">Sell apps on Amazon</a>
+        <a href="#">Become an Affiliate</a>
+        <a href="#">Advertise Your Products</a>
+        <a href="#">Self-Publish with Us</a>
+        <a href="#">Host an Amazon Hub</a>
+        <a href="#">›See More Make Money with Us</a>
+      </ul>
+
+      <ul>
+        <p>Amazon pyment product</p>
+        <a href="#">Amazon Business Card</a>
+        <a href="#">Shop with Points</a>
+        <a href="#">Reload Your Balance</a>
+        <a href="#">Amazon Currency Converter</a>
+      </ul>
+
+      <ul>
+        <p>Let Us Help You</p>
+        <a href="#">Amazon and COVID-19</a>
+        <a href="#">Your Account</a>
+        <a href="#">Your Orders</a>
+        <a href="#">Shipping Rates & <br> Policies</a>
+        <a href="#">Returns & <br>Replacements</a>
+        <a href="#">Manage Your <br> Content and Devices</a>
+        <a href="#">Amazon Assistant <br> Help
+           </a>
+      </ul>
+    </div>
+<hr>
+
+    <div class="footer-btns">
+      <div class="nav-logo"><div class="Amazon logo "></div></div>
+      <div class="f-btn1">
+        <button><i class="fa-solid fa-globe"></i> <h6>English</h6></button>
+      </div>
+      <div class="f-btn2"><button><i class="fa-solid fa-flag-usa"></i><span>United State</span></button></div>
+    </div>
+    <div class="last-footer1 ">
+      <ul >
+        <p>Amazon Music</p>
+        <li>Stream millions
+          of songs</li>
+      </ul>
+
+      <ul>
+        <p>Amazon Ads</p>
+        <li>
+          Reach customers
+          wherever they
+          spend their time</li>
+      </ul>
+
+      <ul>
+        <p>6pm</p>
+        <li>Score deals
+          on fashion brands</li>
+      </ul>
+
+      <ul>
+        <p>AbeBooks</p>
+        <li>Books, art
+          & collectibles</li>
+      </ul>
+
+      <ul>
+        <p>ACX</p>
+        <li>Audiobook Publishing
+          Made Easy</li>
+      </ul>
+
+      <ul>
+        <p>Sell On Amazon</p>
+        <li>Start a Selling Account</li>
+      </ul>
+
+      <ul>
+        <p>Amazon Business</p>
+        <li>Everything For
+          Your Business</li>
+      </ul>
+    </div>
+    <div class="last-footer2">
+      <ul>
+        <p>Amazon Music</p>
+        <li>Stream millions
+          of songs</li>
+      </ul>
+
+      <ul>
+        <p>Amazon Ads</p>
+        <li>
+          Reach customers
+          wherever they
+          spend their time</li>
+      </ul>
+
+      <ul>
+        <p>6pm</p>
+        <li>Score deals
+          on fashion brands</li>
+      </ul>
+
+      <ul>
+        <p>AbeBooks</p>
+        <li>Books, art
+          & collectibles</li>
+      </ul>
+
+      <ul>
+        <p>ACX</p>
+        <li>Audiobook Publishing
+          Made Easy</li>
+      </ul>
+
+      <ul>
+        <p>Sell On Amazon</p>
+        <li>Start a Selling Account</li>
+      </ul>
+
+      <ul>
+        <p>Amazon Business</p>
+        <li>Everything For
+          Your Business</li>
+      </ul>
+    </div>
+    <div class="last-footer3">
+      <ul>
+        <p>Amazon Music</p>
+        <li>Stream millions
+          of songs</li>
+      </ul>
+
+      <ul>
+        <p>Amazon Ads</p>
+        <li>
+          Reach customers
+          wherever they
+          spend their time</li>
+      </ul>
+
+      <ul>
+        <p>6pm</p>
+        <li>Score deals
+          on fashion brands</li>
+      </ul>
+
+      <ul>
+        <p>AbeBooks</p>
+        <li>Books, art
+          & collectibles</li>
+      </ul>
+
+      <ul>
+        <p>ACX</p>
+        <li>Audiobook Publishing
+          Made Easy</li>
+      </ul>
+
+      <ul>
+        <p>Sell On Amazon</p>
+        <li>Start a Selling Account</li>
+      </ul>
+
+      <ul>
+        <p>Amazon Business</p>
+        <li>Everything For
+          Your Business</li>
+      </ul>
+    </div>
+    
+    
+    <div class="copyright">
+      <a href="#">Conditions of Use</a>
+      <a href="#">Privacy Notice</a>
+      <a href="#">Your Ads Privacy Choices</a>
+      <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+
+      <h2>This has been created by the vasitor of Amozon.com </h2>
+    </div>
+  </body>
+</html>
